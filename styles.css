@@ -1,0 +1,108 @@
+/* Setting the basic styles for the body to use a friendly font and background color */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef5e4; /* Light green background to fit the jungle theme */
+    color: #333;
+}
+
+/* Styling the header to have a standout background and text color */
+header {
+    background-color: #76b852; /* Jungle green color */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Navigation menu styles for a clean and easy-to-use menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #5a8d6b; /* Darker green to differentiate from the header */
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Hover effect to make the navigation menu interactive */
+nav ul li a:hover {
+    background-color: #76b852;
+}
+
+/* General section padding */
+section {
+    padding: 2em;
+}
+
+/* Styling the catalog section to display books in a flexible, wrap-around layout */
+#catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Individual book entry styles to make each book visually appealing */
+.book {
+    background-color: #fff; /* White background for contrast */
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    padding: 1em;
+    margin: 1em;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for a 3D effect */
+}
+
+/* Making sure the book cover images fit nicely within their containers */
+.book img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Styling book titles for clear readability */
+.book h3 {
+    margin: 0.5em 0;
+}
+
+/* Styling the preview text for each book */
+.book .preview {
+    font-size: 0.9em;
+    color: #666;
+    margin: 0.5em 0;
+}
+
+/* Styles for download links to make them stand out */
+.downloads a {
+    display: block;
+    margin: 0.5em 0;
+    color: #76b852;
+    text-decoration: none;
+}
+
+/* Hover effect for download links to enhance user interaction */
+.downloads a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling to match the navigation bar for consistency */
+footer {
+    background-color: #5a8d6b;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
